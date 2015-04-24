@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Feel Like Running]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://metasong.github.io/"/>
-  <updated>2015-04-15T05:45:59.761Z</updated>
+  <updated>2015-04-24T02:36:51.287Z</updated>
   <id>http://metasong.github.io/</id>
   
   <author>
@@ -15,11 +15,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[4/24/2015 10:36:39 AM]]></title>
+    <link href="http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150424/"/>
+    <id>http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150424/</id>
+    <published>2015-04-23T16:00:00.000Z</published>
+    <updated>2015-04-24T02:36:51.287Z</updated>
+    <content type="html"><![CDATA[<h1 id="Photo_Today">Photo Today</h1><h2 id=""><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/ice-cave-sunset.jpg" alt="Long-exposure photography"></h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Photo_Today">Photo Today</h1><h2 id=""><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday]]>
+    </summary>
+    
+      <category term="note2015" scheme="http://metasong.github.io/tags/note2015/"/>
+    
+      <category term="Life" scheme="http://metasong.github.io/categories/Life/"/>
+    
+      <category term="NoteEveryday" scheme="http://metasong.github.io/categories/Life/NoteEveryday/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[4/20/2015 1:08:48 PM]]></title>
+    <link href="http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150420/"/>
+    <id>http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150420/</id>
+    <published>2015-04-19T16:00:00.000Z</published>
+    <updated>2015-04-20T05:09:35.565Z</updated>
+    <content type="html"><![CDATA[<h1 id="Photo_Today">Photo Today</h1><h2 id=""><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/ice-cave-sunset.jpg" alt="Long-exposure photography"></h2><p>Team Building</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Photo_Today">Photo Today</h1><h2 id=""><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday]]>
+    </summary>
+    
+      <category term="note2015" scheme="http://metasong.github.io/tags/note2015/"/>
+    
+      <category term="Life" scheme="http://metasong.github.io/categories/Life/"/>
+    
+      <category term="NoteEveryday" scheme="http://metasong.github.io/categories/Life/NoteEveryday/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Note Everyday]]></title>
     <link href="http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150414/"/>
     <id>http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150414/</id>
-    <published>2015-04-15T05:45:59.761Z</published>
-    <updated>2015-04-15T05:45:59.761Z</updated>
+    <published>2015-04-15T07:12:58.932Z</published>
+    <updated>2015-04-15T07:12:58.932Z</updated>
     <content type="html"><![CDATA[<h1 id="4/14/2015_11:10:04_AM">4/14/2015 11:10:04 AM</h1><p><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/Carrick-a-Rede.jpg" alt="Photo Everyday"></p>
 <p><a href="http://en.wikipedia.org/wiki/Carrick-a-Rede_Rope_Bridge" target="_blank" rel="external">Carrick-a-Rede Rope Bridge</a> is a famous rope bridge near Ballintoy in County Antrim, Northern Ireland. The bridge links the mainland to the tiny island of Carrickarede. It spans 20 metres and is 30 metres above the rocks below.</p>
 <hr>
@@ -28,7 +67,7 @@
 <li><a href="https://msdn.microsoft.com/en-us/library/ms731935.aspx" target="_blank" rel="external">How to: Access Services with a Duplex Contract</a></li>
 <li><a href="https://msdn.microsoft.com/en-us/library/ms734681.aspx" target="_blank" rel="external">How to: Use the ChannelFactory</a></li>
 <li><a href="https://msdn.microsoft.com/en-us/library/ms734712.aspx" target="_blank" rel="external">WCF Getting Started Tutorial</a></li>
-<li><a href="http://stackoverflow.com/questions/7353670/wcf-named-pipe-minimal-example" target="_blank" rel="external">http://stackoverflow.com/questions/7353670/wcf-named-pipe-minimal-example</a></li>
+<li><a href="http://stackoverflow.com/questions/7353670/wcf-named-pipe-minimal-example" target="_blank" rel="external">WCF client proxy code</a></li>
 </ul>
 ]]></content>
     <summary type="html">
@@ -118,36 +157,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Note 4/15/2015 8:43:35 AM]]></title>
-    <link href="http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150415/"/>
-    <id>http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150415/</id>
-    <published>2015-04-14T16:00:00.000Z</published>
-    <updated>2015-04-15T05:45:59.770Z</updated>
-    <content type="html"><![CDATA[<h1 id="Photo_Today">Photo Today</h1><p><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/luminatedCarColorfulLights.jpg" alt="Long-exposure photography"><br><a href="http://en.wikipedia.org/wiki/Long-exposure_photography" target="_blank" rel="external">Long-exposure photography</a> or time-exposure photography involves using a long-duration shutter speed to sharply capture the stationary elements of images while blurring, smearing, or obscuring the moving elements. Long-exposure photography captures one element that conventional photography does not: time. The paths of bright moving objects become clearly visible.</p>
-<h1 id="-Net_Dispose_Pattern">.Net Dispose Pattern</h1><ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/b1yfkh5e.aspx" target="_blank" rel="external">.net Dispose Pattern</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx" target="_blank" rel="external">IDisposable.Dispose Method</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/system.object.finalize.aspx" target="_blank" rel="external">Object.Finalize Method</a><blockquote>
-<p>The Boolean parameter disposing indicates whether the method was invoked from the <em>IDisposable.Dispose</em> implementation or from the <em>finalizer</em>. The Dispose(bool) implementation should check the parameter before accessing other reference objects (e.g., the resource field in the preceding sample). Such objects should only be accessed when the method is called from the IDisposable.Dispose implementation (when the disposing parameter is equal to true). If the method is invoked from the finalizer (disposing is false), other objects should not be accessed. The reason is that objects are finalized in an unpredictable order and so they, or any of their dependencies, might already have been finalized.</p>
-<p>Users might expect a resource type to use a particular convention to denote an allocated state versus a freed state. An example of this is stream classes, which are traditionally thought of as open or closed. The implementer of a class that has such a convention might choose to implement a public method with a customized name, such as Close, that calls the Dispose method.</p>
-<p>The parameter will be false if being invoked from inside a finalizer. It should be used to ensure any code running during finalization is not accessing other finalizable objects. </p>
-</blockquote>
-</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="Photo_Today">Photo Today</h1><p><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/l]]>
-    </summary>
-    
-      <category term="note2015" scheme="http://metasong.github.io/tags/note2015/"/>
-    
-      <category term="Life" scheme="http://metasong.github.io/categories/Life/"/>
-    
-      <category term="NoteEveryday" scheme="http://metasong.github.io/categories/Life/NoteEveryday/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[InterProcess ICommand]]></title>
     <link href="http://metasong.github.io/2015/04/technology/dot_net/InterProcessICommand/"/>
     <id>http://metasong.github.io/2015/04/technology/dot_net/InterProcessICommand/</id>
@@ -165,6 +174,41 @@
       <category term="Technology" scheme="http://metasong.github.io/categories/Technology/"/>
     
       <category term="DotNet" scheme="http://metasong.github.io/categories/Technology/DotNet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Note 4/15/2015 8:43:35 AM]]></title>
+    <link href="http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150415/"/>
+    <id>http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150415/</id>
+    <published>2015-04-14T16:00:00.000Z</published>
+    <updated>2015-04-15T08:03:47.839Z</updated>
+    <content type="html"><![CDATA[<h1 id="Photo_Today">Photo Today</h1><p><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/luminatedCarColorfulLights.jpg" alt="Long-exposure photography"><br><a href="http://en.wikipedia.org/wiki/Long-exposure_photography" target="_blank" rel="external">Long-exposure photography</a> or time-exposure photography involves using a long-duration shutter speed to sharply capture the stationary elements of images while blurring, smearing, or obscuring the moving elements. Long-exposure photography captures one element that conventional photography does not: time. The paths of bright moving objects become clearly visible.</p>
+<hr>
+<h1 id="-Net_Dispose_Pattern">.Net Dispose Pattern</h1><ul>
+<li><a href="https://msdn.microsoft.com/en-us/library/b1yfkh5e.aspx" target="_blank" rel="external">.net Dispose Pattern</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx" target="_blank" rel="external">IDisposable.Dispose Method</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/system.object.finalize.aspx" target="_blank" rel="external">Object.Finalize Method</a><blockquote>
+<p>The Boolean parameter disposing indicates whether the method was invoked from the <em>IDisposable.Dispose</em> implementation or from the <em>finalizer</em>. The Dispose(bool) implementation should check the parameter before accessing other reference objects (e.g., the resource field in the preceding sample). Such objects should only be accessed when the method is called from the IDisposable.Dispose implementation (when the disposing parameter is equal to true). If the method is invoked from the finalizer (disposing is false), other objects should not be accessed. The reason is that objects are finalized in an unpredictable order and so they, or any of their dependencies, might already have been finalized.</p>
+<p>Users might expect a resource type to use a particular convention to denote an allocated state versus a freed state. An example of this is stream classes, which are traditionally thought of as open or closed. The implementer of a class that has such a convention might choose to implement a public method with a customized name, such as Close, that calls the Dispose method.</p>
+<p>The parameter will be false if being invoked from inside a finalizer. It should be used to ensure any code running during finalization is not accessing other finalizable objects. </p>
+</blockquote>
+</li>
+</ul>
+<h2 id="WCF_Study">WCF Study</h2><ul>
+<li><a href="http://www.codeproject.com/Articles/799258/WCF-Exception-FaultException-FaultContract" target="_blank" rel="external">WCF Exception Handling, FaultException and FaultContracts</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ee942778.aspx" target="_blank" rel="external">Fault Handling in WCF Services</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Photo_Today">Photo Today</h1><p><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/l]]>
+    </summary>
+    
+      <category term="note2015" scheme="http://metasong.github.io/tags/note2015/"/>
+    
+      <category term="Life" scheme="http://metasong.github.io/categories/Life/"/>
+    
+      <category term="NoteEveryday" scheme="http://metasong.github.io/categories/Life/NoteEveryday/"/>
     
   </entry>
   
