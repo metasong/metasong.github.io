@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Feel Like Running]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://metasong.github.io/"/>
-  <updated>2015-04-24T02:36:51.287Z</updated>
+  <updated>2015-04-24T09:58:13.390Z</updated>
   <id>http://metasong.github.io/</id>
   
   <author>
@@ -19,8 +19,20 @@
     <link href="http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150424/"/>
     <id>http://metasong.github.io/2015/04/Life/NoteEveryday/2015/Note20150424/</id>
     <published>2015-04-23T16:00:00.000Z</published>
-    <updated>2015-04-24T02:36:51.287Z</updated>
-    <content type="html"><![CDATA[<h1 id="Photo_Today">Photo Today</h1><h2 id=""><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/ice-cave-sunset.jpg" alt="Long-exposure photography"></h2>]]></content>
+    <updated>2015-04-24T09:58:13.390Z</updated>
+    <content type="html"><![CDATA[<h1 id="Photo_Today">Photo Today</h1><h2 id=""><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday/2015/ice-cave-sunset.jpg" alt="Long-exposure photography"></h2><hr>
+<ol>
+<li><a href="http://docs.nuget.org/consume/package-restore#Automatic_Package_Restore_in_Visual_Studio" target="_blank" rel="external">NuGet Package Restore</a></li>
+<li><a href="http://www.codeproject.com/Articles/847827/Auto-update-your-NuGet-packages-at-build-time" target="_blank" rel="external">Auto-update your NuGet packages at build time</a></li>
+</ol>
+<ol>
+<li><a href="https://docs.nuget.org/create/creating-and-publishing-a-package" target="_blank" rel="external">Creating and Publishing a Package</a></li>
+<li><a href="https://newnugetpackage.codeplex.com/wikipage?title=NuGet%20Package%20To%20Create%20A%20NuGet%20Package%20From%20Your%20Project%20After%20Every%20Build" target="_blank" rel="external">NuGet Package To Automatically Create Your NuGet Packages</a></li>
+<li><a href="https://visualstudiogallery.msdn.microsoft.com/c6d1c265-7007-405c-a68b-5606af238ece" target="_blank" rel="external">VSCommands for Visual Studio 2013</a></li>
+<li><a href="https://newnugetpackage.codeplex.com/discussions/541906" target="_blank" rel="external">Automatically including dependent projects</a></li>
+</ol>
+<p>we can creat a local package sources:<br>visual studio Tools-&gt;Options-&gt;NuGet Package Manager-Package Sources, then click the + button, then set the source to a local path</p>
+]]></content>
     <summary type="html">
     <![CDATA[<h1 id="Photo_Today">Photo Today</h1><h2 id=""><img src="https://raw.githubusercontent.com/metasong/FolderMD/master/_posts/Life/NoteEveryday]]>
     </summary>
