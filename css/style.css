@@ -92,6 +92,7 @@
 .article-entry ol ol {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 20px;
 }
 .widget ul,
 .article-entry ul {
@@ -209,13 +210,6 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-@font-face {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
-}
 html,
 body,
 #container {
@@ -276,12 +270,13 @@ body {
   background-color: #fff;
 }
 .main-body-inner {
-  padding-left: 340px;
+  position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
   box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
+  padding-left: 340px;
   background: url("images/s-left.png") repeat-y left 0;
 }
 .main-body-inner:before,
@@ -405,7 +400,6 @@ body {
 .nav-container .nav-icon {
   line-height: 20px;
   padding: 15px 14px;
-  font-family: FontAwesome;
   text-align: center;
   font-size: 14px;
   position: relative;
@@ -505,11 +499,16 @@ body {
   color: rgba(255,255,255,0.7);
   font: normal normal normal 16px/1 FontAwesome;
 }
-.search-form-input {
+.search-form-input,
+.search-form-input.st-ui-search-input,
+.search-form-input.st-default-search-input {
+  -webkit-appearance: textarea;
+  padding: 0;
   width: 100px;
-  border: none;
-  outline: none;
-  background: none;
+  height: auto !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
   line-height: 1.6em;
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
@@ -518,11 +517,17 @@ body {
   font: 16px "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
   color: rgba(255,255,255,0.7);
 }
-.search-form-input:focus {
+.search-form-input:focus,
+.search-form-input.st-ui-search-input:focus,
+.search-form-input.st-default-search-input:focus {
   width: 200px;
 }
 .search-form-input::-webkit-search-results-decoration,
-.search-form-input::-webkit-search-cancel-button {
+.search-form-input.st-ui-search-input::-webkit-search-results-decoration,
+.search-form-input.st-default-search-input::-webkit-search-results-decoration,
+.search-form-input::-webkit-search-cancel-button,
+.search-form-input.st-ui-search-input::-webkit-search-cancel-button,
+.search-form-input.st-default-search-input::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 .search-form-submit {
@@ -948,15 +953,17 @@ body {
   margin-right: 30px;
 }
 .article-summary .article-summary-inner .thumbnail {
-  display: block;
+  height: 0;
   width: 100%;
-  height: 100%;
-  position: relative;
+  display: block;
   overflow: hidden;
+  position: relative;
   margin-bottom: 1em;
+  padding-bottom: 47.11%;
 }
 .article-summary .article-summary-inner .thumbnail .thumbnail-image {
   display: block;
+  position: absolute;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -1109,10 +1116,10 @@ a.article-title:hover {
   padding: 10px 0;
 }
 .article-entry blockquote {
-  border-left: 5px solid rgba(128,128,128,0.3);
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.4em;
   margin: 1.6em 20px;
-  text-align: left;
+  text-align: center;
 }
 .article-entry blockquote footer {
   font-size: 14px;
@@ -1205,23 +1212,17 @@ a.article-title:hover {
 .article-tag-list-link:before {
   content: "#";
 }
+.article-comment-link i,
+.article-share-link i {
+  padding-right: 8px;
+}
 .article-comment-link {
   float: right;
-}
-.article-comment-link:before {
-  content: "\f075";
-  font-family: FontAwesome;
-  padding-right: 8px;
 }
 .article-share-link {
   cursor: pointer;
   float: right;
   margin-left: 20px;
-}
-.article-share-link:before {
-  content: "\f064";
-  font-family: FontAwesome;
-  padding-right: 6px;
 }
 .article-share-box {
   position: absolute;
@@ -1511,6 +1512,7 @@ a.article-title:hover {
 }
 #footer #back-to-top i {
   font-size: 38px;
+  line-height: 22px;
 }
 #footer .logo {
   width: 132px;
@@ -1635,7 +1637,10 @@ a.article-title:hover {
   text-decoration: underline;
 }
 pre .comment,
-pre .title {
+pre .title,
+pre .template_comment,
+pre .header,
+pre .javadoc {
   color: #999;
 }
 pre .variable,
@@ -1649,31 +1654,52 @@ pre .xml .doctype,
 pre .html .doctype,
 pre .css .id,
 pre .css .class,
-pre .css .pseudo {
+pre .css .pseudo,
+pre .winutils,
+pre .method,
+pre .request,
+pre .status,
+pre .nginx .title,
+pre .diff .change,
+pre .special,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .clojure .title,
+pre .deletion {
   color: #f2777a;
 }
 pre .number,
 pre .preprocessor,
+pre .preprocessor .keyword,
 pre .built_in,
 pre .literal,
 pre .params,
-pre .constant {
+pre .constant,
+pre .command,
+pre .lisp .body,
+pre .parent,
+pre .haskell .type {
   color: #f99157;
 }
 pre .class,
 pre .ruby .class .title,
-pre .css .rules .attribute {
+pre .css .rules .attribute,
+pre .addition,
+pre .function .title {
   color: #9c9;
 }
 pre .string,
 pre .value,
 pre .inheritance,
-pre .header,
 pre .ruby .symbol,
+pre .symbol .string,
 pre .xml .cdata {
   color: #9c9;
 }
-pre .css .hexcolor {
+pre .css .hexcolor,
+pre .phpdoc,
+pre .tex .formula {
   color: #6cc;
 }
 pre .function,
@@ -1683,7 +1709,12 @@ pre .ruby .function .title,
 pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
-pre .coffeescript .title {
+pre .coffeescript .title,
+pre .localvars,
+pre .chunk,
+pre .decorator,
+pre .identifier,
+pre .vhdl {
   color: #69c;
 }
 pre .keyword,
@@ -1692,7 +1723,6 @@ pre .javascript .function {
 }
 i.icon {
   display: inline-block;
-  font-family: FontAwesome;
   font-style: normal;
   text-align: center;
 }
@@ -1701,54 +1731,6 @@ i.icon:before {
   -moz-transition: 0.2s ease-in;
   -ms-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
-}
-#icon-category:before {
-  content: "\f07c";
-}
-#icon-tag:before {
-  content: "\f02b";
-}
-#icon-archive:before {
-  content: "\f187";
-}
-#icon-twitter:before {
-  content: "\f099";
-}
-#icon-facebook:before {
-  content: "\f09a";
-}
-#icon-google_plus:before {
-  content: "\f0d5";
-}
-#icon-github:before {
-  content: "\f09b";
-}
-#icon-weibo:before {
-  content: "\f18a";
-}
-#icon-rss:before {
-  content: "\f09e";
-}
-#icon-caret-right:before {
-  content: "\f0da";
-}
-#icon-angle-up:before {
-  content: "\f106";
-}
-#icon-angle-right:before {
-  content: "\f105";
-}
-#icon-chevron-left:before {
-  content: "\f053";
-}
-#icon-chevron-right:before {
-  content: "\f054";
-}
-#icon-angle-double-right:before {
-  content: "\f101";
-}
-#icon-calendar-o:before {
-  content: "\f133";
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   .article-entry .img-wrap:before {
@@ -1785,12 +1767,13 @@ i.icon:before {
     background-position: -290px 0 !important;
   }
   .main-body-inner #sidebar {
+    left: 0;
+    background: url("images/s-left.png") repeat-y left 0;
+    margin: 0;
     height: 100%;
     position: absolute;
     overflow: hidden;
     width: 50px;
-    margin-left: -50px;
-    background: url("images/s-left.png") repeat-y left 0;
     -webkit-transition: width 0.2s ease-in 0.2s;
     -moz-transition: width 0.2s ease-in 0.2s;
     -ms-transition: width 0.2s ease-in 0.2s;
@@ -1819,6 +1802,7 @@ i.icon:before {
     line-height: 38px;
     font-size: 38px;
     width: 38px;
+    font-family: fontawesome;
   }
   .main-body-inner #sidebar .sidebar-toggle .toggle:before {
     content: '\f101';
